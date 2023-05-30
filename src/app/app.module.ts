@@ -28,12 +28,15 @@ import { MatTabsModule} from '@angular/material/tabs';//tabs
 import { MatSelectModule} from '@angular/material/select';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { MaterialComponent } from './material/material.component';
+import { TableComponent } from './table/table.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopBarComponent,
-    MaterialComponent
+    MaterialComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,
@@ -59,7 +62,8 @@ import { MaterialComponent } from './material/material.component';
     MatDialogModule,
     MatRadioModule,
     MatTabsModule,
-    MatSelectModule
+    MatSelectModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,17 @@
+@import 'src/app/app.component.scss';
+
+
+
+mdc-text-field.custom-field{
+ background-color: white;
+}
+mat-card.custom-card{
+  width: 20%;
+}
+.mat-mdc-table .mdc-data-table__header-row{
+  background-color: whitesmoke;
+}
+.example-blue {
+  color: #0f83ff;
+  fill: #0f83ff;
+}

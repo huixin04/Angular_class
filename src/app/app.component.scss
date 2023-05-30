@@ -16,9 +16,9 @@ a {
 
 .demo-container,
 .demo-sidenav {
-  //width: 180px;
-  //position: fix;
-  padding-top: 64px;
+  // width: 180px;
+  // position: fix;
+  // padding-top: 64px;
   height: 100%;
 }
 
@@ -30,9 +30,30 @@ mat-sidenav-content {
   padding-left: 10%;
   padding-right: 10%;
 }
+.menu-item {
+  display: flex;
+  align-items: center;
+}
+.menu-item mat-icon {
+  margin-right: 10px;
+}
+mat-card{
+  margin:  10px;
+  width: 80%;
+}
+.center-container {
+  margin: 0 auto;
+  margin-top: 5px;
+  padding: 0 15px;
+  // width: 1000px;
+  max-width: 100%;
+
+}
+
+
 
 mat-list {
-  width: 180px;
+  width: 200px;
 
   .mat-list-item {
     cursor: pointer; // 當滑鼠移動過去改變游標
